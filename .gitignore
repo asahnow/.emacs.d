@@ -1,0 +1,8 @@
+auto-save-list/
+backups/
+elpa/
+url/
+custom.el
+history
+places.eld
+recentf.eld
