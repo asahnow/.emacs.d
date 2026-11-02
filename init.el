@@ -22,12 +22,15 @@
   (backup-by-copying t) ; Windows: preserve file creation date
   (backup-directory-alist
    `(("." . ,(file-name-concat user-emacs-directory "backups"))))
+
+  (face-font-family-alternatives
+   '(("Bricolage Grotesque" "Palatino Linotype")))
   
   :custom-face
   (default ((((type graphic))
              (:family "Iosevka Term SS12 Extended" :height 110))))
   (variable-pitch ((((type graphic))
-                    (:family "Palatino Linotype" :height 130)))))
+                    (:family "Bricolage Grotesque" :height 110)))))
 
 (use-package alabaster-themes
   :ensure t
